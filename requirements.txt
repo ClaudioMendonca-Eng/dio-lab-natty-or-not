@@ -1,0 +1,5 @@
+youtube_transcript_api # to get transcripts/subtitles from youtube videos
+streamlit # for frontend web app
+google-generativeai
+python-dotenv
+pathlib
