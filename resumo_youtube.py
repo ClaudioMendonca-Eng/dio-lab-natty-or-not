@@ -105,7 +105,7 @@ if st.button("Obtenha notas do vídeo"):
         st.markdown("## Detailed Notes:")
         st.write(summary)
         if st.button('Copiar'):
-            pyperclip.copy(a)
+            pyperclip.copy(summary)
             st.success('Nota copiada com sucesso!')
 icon_size = 20
 st_button('site', 'https://claudiomendonca.eng.br', '    Explore meu portfólio visitando o meu site', icon_size)
