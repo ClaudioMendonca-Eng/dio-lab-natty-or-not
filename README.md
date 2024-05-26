@@ -4,9 +4,8 @@
 |:--:|
 | O aplicativo "Youtube Notas Detalhadas" oferece aos usuários uma maneira prática de converter vídeos do YouTube com transcrição em notas detalhadas em português. Através da API do Gemini, o app traduz automaticamente o conteúdo do vídeo para o idioma desejado, gerando um resumo completo e preciso. |
 | <a href="https://www.youtube.com/watch?v=wtiaPK_200U" target="_blank"><img style="margin: 10px" height="200" width="250" src="/img/logo_nexa_dio.png" alt="Logo do BootCamp"/></a> |
-| ![Apresentação do Desafio](/img/imagemapresentacao.gif) |
-
-
+| [![Apresentação do Desafio](/img/imagemapresentacao.gif)](https://dio-bootcamp-nexa-youtubenotas.streamlit.app/) |
+| [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dio-bootcamp-nexa-youtubenotas.streamlit.app/) |
 
 # Conceito e Funcionalidades:
 O app foi idealizado com o objetivo de auxiliar usuários que desejam:
@@ -18,6 +17,7 @@ O app foi idealizado com o objetivo de auxiliar usuários que desejam:
 ## 🤖 Tecnologias Utilizadas
 Para dar vida ao app, a seguinte pilha tecnológica foi selecionada:
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dio-bootcamp-nexa-youtubenotas.streamlit.app/)
 - Streamlit: Framework Python para criação de interfaces web interativas. Ideal para prototipagem rápida e deploy em plataformas online.
 - Python: Linguagem de programação versátil e poderosa, utilizada para o desenvolvimento da lógica principal do aplicativo.
 - API do Gemini: Ferramenta crucial para converter a fala em texto e traduzir idiomas. O Gemini Pro, versão paga da API, foi utilizado para garantir maior qualidade e recursos avançados.
@@ -36,6 +36,9 @@ Hospedagem e Deploy: O código do app foi armazenado no repositório GitHub, per
 ## 🚀 Resultados
 O app "Youtube Notas Detalhadas" se destaca por sua simplicidade, funcionalidade e utilidade. A combinação de tecnologias como Streamlit, Python, API do Gemini e API do YouTube possibilitou a criação de uma ferramenta valiosa para quem busca otimizar o aprendizado e a retenção de informações a partir de vídeos do YouTube.
 
+## 💭 Reflexão (Opcional)
+O app "Youtube Notas Detalhadas" demonstra o potencial da tecnologia para facilitar o acesso à informação e otimizar o processo de aprendizado. Sua interface amigável e funcionalidades práticas o tornam uma ferramenta útil para estudantes, profissionais e qualquer pessoa que busca aproveitar ao máximo o conteúdo dos vídeos do YouTube.
+
 ## Certificado
 
 - Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3
@@ -48,6 +51,3 @@ O app "Youtube Notas Detalhadas" se destaca por sua simplicidade, funcionalidade
 <a href="https://www.buymeacoffee.com/claudiomendonca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 Copyright © 2024 <a href="https://www.claudiomendonca.eng.br" target="_blank">ClaudioMendonca.eng.br</a> .
-
-## 💭 Reflexão (Opcional)
-O app "Youtube Notas Detalhadas" demonstra o potencial da tecnologia para facilitar o acesso à informação e otimizar o processo de aprendizado. Sua interface amigável e funcionalidades práticas o tornam uma ferramenta útil para estudantes, profissionais e qualquer pessoa que busca aproveitar ao máximo o conteúdo dos vídeos do YouTube.
