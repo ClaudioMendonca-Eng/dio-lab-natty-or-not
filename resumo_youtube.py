@@ -5,6 +5,7 @@ load_dotenv()
 import os
 import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi
+import clipboard
 
 load_css()
 
@@ -106,7 +107,7 @@ if st.button("Obtenha notas do vídeo"):
         st.write(summary)
         copia = st.write(summary)
     if st.button('Copiar'):
-        pyperclip.copy(copia)
+        clipboard.copy(copia)
         st.success('Nota copiada com sucesso!')
 icon_size = 20
 st_button('site', 'https://claudiomendonca.eng.br', '    Explore meu portfólio visitando o meu site', icon_size)
