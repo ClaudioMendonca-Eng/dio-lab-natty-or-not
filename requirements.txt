@@ -3,4 +3,3 @@ streamlit # for frontend web app
 google-generativeai
 python-dotenv
 pathlib
-clipboard
