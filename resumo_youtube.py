@@ -11,7 +11,7 @@ st.write("[![Star](https://img.shields.io/github/stars/ClaudioMendonca-Eng/dio-l
 load_css()
 
 bar = st.sidebar
-bar.markdown("[![DIO.me](https://github.com/ClaudioMendonca-Eng/dio-trilha-java-basico/blob/main/img/dio.png)](https://dio.me)")
+bar.markdown("[![Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3](/img/logo_nexa_dio.png)](https://dio.me)")
 bar.image('img/logo_nexa_dio.png', width=250)
 bar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gemini_language_model_logo.png/200px-Gemini_language_model_logo.png', width=200)
 bar.title("🔑 Chaves de API")
