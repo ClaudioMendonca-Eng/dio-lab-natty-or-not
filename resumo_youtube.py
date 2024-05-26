@@ -13,7 +13,7 @@ bar.image('img/logo_nexa_dio.png', width=250)
 bar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gemini_language_model_logo.png/200px-Gemini_language_model_logo.png', width=200)
 bar.title("🔑 Chaves de API")
 bar.markdown("Para usar este aplicativo, você precisa de uma chave de API do Gemini. Você pode obter uma chave de API do Gemini [aqui](https://aistudio.google.com/app/apikey).")
-api_key = bar.text_input("Digite sua API Key do Gemini:")
+api_key = bar.text_input("Digite sua API Key do Gemini:", type="password")
 # Configuração da API Key do Gemini
 genai.configure(api_key=api_key)
 
