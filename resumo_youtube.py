@@ -109,7 +109,7 @@ if st.button("Obtenha notas do vídeo"):
         summary=generate_gemini_content(transcript_text,prompt)
         st.markdown("## Detailed Notes:")
         st.write(summary)
-            st.button("📋", on_click=on_copy_click, args=(st.write(summary),))
+        st.button("📋", on_click=on_copy_click, args=(st.write(summary),))
 icon_size = 20
 st_button('site', 'https://claudiomendonca.eng.br', '    Explore meu portfólio visitando o meu site', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/claudio-mendonca', '    Conecte-se comigo no LinkedIn', icon_size)
