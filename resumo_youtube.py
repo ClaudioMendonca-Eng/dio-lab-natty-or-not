@@ -6,6 +6,8 @@ import os
 import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi
 
+st.write("[![Star](https://img.shields.io/github/stars/ClaudioMendonca-Eng/dio-lab-natty-or-not.svg?logo=github&style=social)](https://gitHub.com/ClaudioMendonca-Eng/dio-lab-natty-or-not)")
+
 load_css()
 
 bar = st.sidebar
