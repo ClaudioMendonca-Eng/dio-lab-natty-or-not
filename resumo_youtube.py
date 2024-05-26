@@ -10,8 +10,13 @@ load_css()
 
 bar = st.sidebar
 bar.markdown(
-    """
-    [![DIO.me](/img/logo_nexa_dio.png")](https://dio.me)
+    """<a href="https://www.linkedin.com/in/your-profile-username/">
+    <img src="data:image/png;base64,{}" width="25">
+    </a>""".format(
+        base64.b64encode(open("LinkedIn.png", "rb").read()).decode()
+    ),
+    unsafe_allow_html=True,
+)
 
 bar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gemini_language_model_logo.png/200px-Gemini_language_model_logo.png', width=200)
 bar.title("🔑 Chaves de API")
