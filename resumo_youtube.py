@@ -87,9 +87,10 @@ def generate_gemini_content(transcript_text,prompt):
     model=genai.GenerativeModel("gemini-pro")
     response=model.generate_content(prompt+transcript_text)
     return response.text
-def on_copy_click(text):
+        
+def on_copy_click(copiar):
     # st.session_state.copied.append(text)
-    clipboard.copy(text)
+    clipboard.copy(copiar)
         
 st.title("🎥 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 Notas Detalhadas 📝")
 st.info("Converta vídeos do YouTube com transcrição para notas detalhadas em inglês usando o Conversor Gemini Pro. Funciona com qualquer idioma e traduz automaticamente. Basta inserir o link e clicar!")
