@@ -3,7 +3,7 @@
 | [![DIO.me](https://github.com/ClaudioMendonca-Eng/dio-trilha-java-basico/blob/main/img/dio.png)](https://dio.me) |
 |:--:|
 | O aplicativo "Youtube Notas Detalhadas" oferece aos usuários uma maneira prática de converter vídeos do YouTube com transcrição em notas detalhadas em português. Através da API do Gemini, o app traduz automaticamente o conteúdo do vídeo para o idioma desejado, gerando um resumo completo e preciso. |
-| <a href="https://www.youtube.com/watch?v=wtiaPK_200U" target="_blank"><img style="margin: 10px" height="200" width="250" src="/img/logo_nexa_dio.png" alt="Logo do BootCamp"/></a> |
+| <a href="https://www.youtube.com/watch?v=ohVOaP6SpMQ" target="_blank"><img style="margin: 10px" height="200" width="250" src="/img/logo_nexa_dio.png" alt="Logo do BootCamp"/></a> |
 | [![Apresentação do Desafio](/img/imagemapresentacao.gif)](https://dio-bootcamp-nexa-youtubenotas.streamlit.app/) |
 | [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dio-bootcamp-nexa-youtubenotas.streamlit.app/) |
 
