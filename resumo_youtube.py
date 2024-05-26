@@ -9,7 +9,10 @@ from youtube_transcript_api import YouTubeTranscriptApi
 load_css()
 
 bar = st.sidebar
-bar.image('img/logo_nexa_dio.png', width=250)
+bar.markdown(
+    """
+    <a href="https://www.youtube.com/watch?v=wtiaPK_200U" target="_blank"><img style="margin: 10px" height="200" width="250" src="/img/logo_nexa_dio.png" alt="Logo do BootCamp"/></a>
+    """
 bar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gemini_language_model_logo.png/200px-Gemini_language_model_logo.png', width=200)
 bar.title("🔑 Chaves de API")
 bar.markdown("Para usar este aplicativo, você precisa de uma chave de API do Gemini. Você pode obter uma chave de API do Gemini [aqui](https://aistudio.google.com/app/apikey).")
