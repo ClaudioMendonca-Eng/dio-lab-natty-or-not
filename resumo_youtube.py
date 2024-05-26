@@ -12,7 +12,7 @@ bar = st.sidebar
 bar.markdown(
     """
     [![DIO.me](/img/logo_nexa_dio.png")](https://dio.me)
-    """
+
 bar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gemini_language_model_logo.png/200px-Gemini_language_model_logo.png', width=200)
 bar.title("🔑 Chaves de API")
 bar.markdown("Para usar este aplicativo, você precisa de uma chave de API do Gemini. Você pode obter uma chave de API do Gemini [aqui](https://aistudio.google.com/app/apikey).")
